@@ -1,7 +1,7 @@
 The goal of this project is to achieve controlled drone flight in GPS-denied environments by utilizing visual-inertial odometry (VIO) data from an Intel 
-RealSense T265 camera. Typically, in order to fly and move a drone contollabely there is a need to close a control loop based on the location of the drone,
+RealSense T265 camera. Typically, in order to fly and move a drone controllably there is a need to close a control loop based on the location of the drone,
 often done by the GPS signal. In the absence of GPS signal, other methods for localization must be applied. The one used in this project as mentioned is odometry data 
-from theT265 Intel RealSense camera. The odometry data is transformed to odometry data that can integrate with the flight controller's firmware using PX4's 
+from the Intel RealSense T265 camera. The odometry data is transformed to odometry data that can integrate with the flight controller's firmware using PX4's 
 uXRCE-DDS middleware. This setup involves a client running on the flight controller and an agent on the companion computer, enabling bi-directional data exchange 
 over a serial link. The agent functions as a proxy, allowing the client to publish and subscribe to topics within the global DDS data space. Odometry data in 
 ROS2's nav_msgs format is translated to VehicleOdometry messages in the uORB format, more specifically on the /fmu/in/vehicle_visual_odometry topic. This data is 
