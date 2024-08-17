@@ -1,0 +1,2 @@
+[console_scripts]
+listener = t265_px4.subscriber_member_function:main

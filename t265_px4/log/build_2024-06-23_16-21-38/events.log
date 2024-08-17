@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000429] (t265_px4) JobQueued: {'identifier': 't265_px4', 'dependencies': OrderedDict()}
+[0.001007] (t265_px4) JobStarted: {'identifier': 't265_px4'}
+[0.099774] (-) TimerEvent: {}
+[0.200319] (-) TimerEvent: {}
+[0.300763] (-) TimerEvent: {}
+[0.401249] (-) TimerEvent: {}
+[0.501705] (-) TimerEvent: {}
+[0.602093] (-) TimerEvent: {}
+[0.702473] (-) TimerEvent: {}
+[0.802803] (-) TimerEvent: {}
+[0.903116] (-) TimerEvent: {}
+[1.003395] (-) TimerEvent: {}
+[1.103738] (-) TimerEvent: {}
+[1.199075] (t265_px4) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/t265_px4', 'build', '--build-base', '/home/panda/ros2_ws/src/t265_px4/build/t265_px4/build', 'install', '--record', '/home/panda/ros2_ws/src/t265_px4/build/t265_px4/install.log', '--install-scripts', '$base/lib/t265_px4', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/panda/ros2_ws/src/t265_px4', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IL:en', 'USER': 'panda', 'SSH_AGENT_PID': '1290', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/panda/ros2_ws/install/realsense2_camera/lib:/home/panda/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/panda', 'OLDPWD': '/home/panda', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1190', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/panda/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'panda', 'JOURNAL_STREAM': '8:40833', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'panda', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/panda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/panda-LattePanda-Alpha:@/tmp/.ICE-unix/1328,unix/panda-LattePanda-Alpha:/tmp/.ICE-unix/1328', 'INVOCATION_ID': '4ace43b64bfc4025abe5751eb90bb3c9', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fc30f7a4_ba2e_4661_a9de_86de03344c25', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.177', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/panda/ros2_ws/install/t265_px4:/home/panda/ros2_ws/install/realsense2_description:/home/panda/ros2_ws/install/realsense2_camera:/home/panda/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/panda/ros2_ws/src/t265_px4/build/t265_px4', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/panda/ros2_ws/src/t265_px4/build/t265_px4/prefix_override:/home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages:/home/panda/ros2_ws/install/t265_px4/lib/python3.8/site-packages:/home/panda/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/panda/ros2_ws/install/realsense2_description:/home/panda/ros2_ws/install/realsense2_camera:/home/panda/ros2_ws/install/realsense2_camera_msgs'}, 'shell': False}
+[1.207064] (-) TimerEvent: {}
+[1.307606] (-) TimerEvent: {}
+[1.401440] (t265_px4) StderrLine: {'line': b'/home/panda/.local/lib/python3.8/site-packages/setuptools/dist.py:478: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[1.402058] (t265_px4) StderrLine: {'line': b'!!\n'}
+[1.402200] (t265_px4) StderrLine: {'line': b'\n'}
+[1.402321] (t265_px4) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.402434] (t265_px4) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[1.402543] (t265_px4) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[1.402657] (t265_px4) StderrLine: {'line': b'\n'}
+[1.402774] (t265_px4) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[1.402927] (t265_px4) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[1.403046] (t265_px4) StderrLine: {'line': b'\n'}
+[1.403161] (t265_px4) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[1.403281] (t265_px4) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.403400] (t265_px4) StderrLine: {'line': b'\n'}
+[1.403519] (t265_px4) StderrLine: {'line': b'!!\n'}
+[1.403634] (t265_px4) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[1.407705] (-) TimerEvent: {}
+[1.508025] (-) TimerEvent: {}
+[1.535386] (t265_px4) StdoutLine: {'line': b'running egg_info\n'}
+[1.536048] (t265_px4) StdoutLine: {'line': b'creating build/t265_px4/t265_px4.egg-info\n'}
+[1.554192] (t265_px4) StdoutLine: {'line': b'writing build/t265_px4/t265_px4.egg-info/PKG-INFO\n'}
+[1.554801] (t265_px4) StdoutLine: {'line': b'writing dependency_links to build/t265_px4/t265_px4.egg-info/dependency_links.txt\n'}
+[1.555072] (t265_px4) StdoutLine: {'line': b'writing entry points to build/t265_px4/t265_px4.egg-info/entry_points.txt\n'}
+[1.555378] (t265_px4) StdoutLine: {'line': b'writing requirements to build/t265_px4/t265_px4.egg-info/requires.txt\n'}
+[1.555602] (t265_px4) StdoutLine: {'line': b'writing top-level names to build/t265_px4/t265_px4.egg-info/top_level.txt\n'}
+[1.608098] (-) TimerEvent: {}
+[1.701122] (t265_px4) StdoutLine: {'line': b"writing manifest file 'build/t265_px4/t265_px4.egg-info/SOURCES.txt'\n"}
+[1.708242] (-) TimerEvent: {}
+[1.741882] (t265_px4) StdoutLine: {'line': b"reading manifest file 'build/t265_px4/t265_px4.egg-info/SOURCES.txt'\n"}
+[1.743004] (t265_px4) StdoutLine: {'line': b"writing manifest file 'build/t265_px4/t265_px4.egg-info/SOURCES.txt'\n"}
+[1.743252] (t265_px4) StdoutLine: {'line': b'running build\n'}
+[1.743389] (t265_px4) StdoutLine: {'line': b'running build_py\n'}
+[1.743541] (t265_px4) StdoutLine: {'line': b'creating /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build\n'}
+[1.743771] (t265_px4) StdoutLine: {'line': b'creating /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build/lib\n'}
+[1.743958] (t265_px4) StdoutLine: {'line': b'creating /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build/lib/t265_px4\n'}
+[1.744100] (t265_px4) StdoutLine: {'line': b'copying t265_px4/subscriber_member_function.py -> /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build/lib/t265_px4\n'}
+[1.744179] (t265_px4) StdoutLine: {'line': b'copying t265_px4/__init__.py -> /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build/lib/t265_px4\n'}
+[1.744458] (t265_px4) StdoutLine: {'line': b'running install\n'}
+[1.751889] (t265_px4) StdoutLine: {'line': b'running install_lib\n'}
+[1.772141] (t265_px4) StdoutLine: {'line': b'creating /home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages/t265_px4\n'}
+[1.772413] (t265_px4) StdoutLine: {'line': b'copying /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build/lib/t265_px4/subscriber_member_function.py -> /home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages/t265_px4\n'}
+[1.772596] (t265_px4) StdoutLine: {'line': b'copying /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build/lib/t265_px4/__init__.py -> /home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages/t265_px4\n'}
+[1.773292] (t265_px4) StdoutLine: {'line': b'byte-compiling /home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages/t265_px4/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc\n'}
+[1.774678] (t265_px4) StdoutLine: {'line': b'byte-compiling /home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages/t265_px4/__init__.py to __init__.cpython-38.pyc\n'}
+[1.774905] (t265_px4) StdoutLine: {'line': b'running install_data\n'}
+[1.775055] (t265_px4) StdoutLine: {'line': b'creating /home/panda/ros2_ws/src/t265_px4/install/t265_px4/share/ament_index\n'}
+[1.775238] (t265_px4) StdoutLine: {'line': b'creating /home/panda/ros2_ws/src/t265_px4/install/t265_px4/share/ament_index/resource_index\n'}
+[1.775399] (t265_px4) StdoutLine: {'line': b'creating /home/panda/ros2_ws/src/t265_px4/install/t265_px4/share/ament_index/resource_index/packages\n'}
+[1.775530] (t265_px4) StdoutLine: {'line': b'copying resource/t265_px4 -> /home/panda/ros2_ws/src/t265_px4/install/t265_px4/share/ament_index/resource_index/packages\n'}
+[1.775722] (t265_px4) StdoutLine: {'line': b'copying package.xml -> /home/panda/ros2_ws/src/t265_px4/install/t265_px4/share/t265_px4\n'}
+[1.775857] (t265_px4) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.795482] (t265_px4) StdoutLine: {'line': b'Copying build/t265_px4/t265_px4.egg-info to /home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages/t265_px4-0.0.0-py3.8.egg-info\n'}
+[1.796593] (t265_px4) StdoutLine: {'line': b'running install_scripts\n'}
+[1.808363] (-) TimerEvent: {}
+[1.845314] (t265_px4) StdoutLine: {'line': b'Installing listener script to /home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/t265_px4\n'}
+[1.846164] (t265_px4) StdoutLine: {'line': b"writing list of installed files to '/home/panda/ros2_ws/src/t265_px4/build/t265_px4/install.log'\n"}
+[1.895098] (t265_px4) CommandEnded: {'returncode': 0}
+[1.908541] (-) TimerEvent: {}
+[1.942188] (t265_px4) JobEnded: {'identifier': 't265_px4', 'rc': 0}
+[1.942919] (-) EventReactorShutdown: {}

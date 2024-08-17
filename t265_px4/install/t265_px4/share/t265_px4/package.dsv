@@ -1,0 +1,6 @@
+source;share/t265_px4/hook/pythonpath.ps1
+source;share/t265_px4/hook/pythonpath.dsv
+source;share/t265_px4/hook/pythonpath.sh
+source;share/t265_px4/hook/ament_prefix_path.ps1
+source;share/t265_px4/hook/ament_prefix_path.dsv
+source;share/t265_px4/hook/ament_prefix_path.sh

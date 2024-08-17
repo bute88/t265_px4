@@ -1,0 +1,52 @@
+[1.204s] Invoking command in '/home/panda/ros2_ws/src/t265_px4': PYTHONPATH=/home/panda/ros2_ws/src/t265_px4/build/t265_px4/prefix_override:/home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/t265_px4 build --build-base /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build install --record /home/panda/ros2_ws/src/t265_px4/build/t265_px4/install.log --install-scripts $base/lib/t265_px4 --single-version-externally-managed install_data
+[1.401s] /home/panda/.local/lib/python3.8/site-packages/setuptools/dist.py:478: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.401s] !!
+[1.401s] 
+[1.401s]         ********************************************************************************
+[1.401s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.401s]         versions. Please use the underscore name 'script_dir' instead.
+[1.402s] 
+[1.402s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[1.402s]         or your builds will no longer be supported.
+[1.402s] 
+[1.402s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.402s]         ********************************************************************************
+[1.402s] 
+[1.402s] !!
+[1.403s]   opt = self.warn_dash_deprecation(opt, section)
+[1.534s] running egg_info
+[1.535s] creating build/t265_px4/t265_px4.egg-info
+[1.553s] writing build/t265_px4/t265_px4.egg-info/PKG-INFO
+[1.554s] writing dependency_links to build/t265_px4/t265_px4.egg-info/dependency_links.txt
+[1.554s] writing entry points to build/t265_px4/t265_px4.egg-info/entry_points.txt
+[1.554s] writing requirements to build/t265_px4/t265_px4.egg-info/requires.txt
+[1.555s] writing top-level names to build/t265_px4/t265_px4.egg-info/top_level.txt
+[1.700s] writing manifest file 'build/t265_px4/t265_px4.egg-info/SOURCES.txt'
+[1.741s] reading manifest file 'build/t265_px4/t265_px4.egg-info/SOURCES.txt'
+[1.742s] writing manifest file 'build/t265_px4/t265_px4.egg-info/SOURCES.txt'
+[1.742s] running build
+[1.742s] running build_py
+[1.742s] creating /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build
+[1.743s] creating /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build/lib
+[1.743s] creating /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build/lib/t265_px4
+[1.743s] copying t265_px4/subscriber_member_function.py -> /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build/lib/t265_px4
+[1.743s] copying t265_px4/__init__.py -> /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build/lib/t265_px4
+[1.743s] running install
+[1.751s] running install_lib
+[1.771s] creating /home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages/t265_px4
+[1.771s] copying /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build/lib/t265_px4/subscriber_member_function.py -> /home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages/t265_px4
+[1.772s] copying /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build/lib/t265_px4/__init__.py -> /home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages/t265_px4
+[1.772s] byte-compiling /home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages/t265_px4/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[1.774s] byte-compiling /home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages/t265_px4/__init__.py to __init__.cpython-38.pyc
+[1.774s] running install_data
+[1.774s] creating /home/panda/ros2_ws/src/t265_px4/install/t265_px4/share/ament_index
+[1.774s] creating /home/panda/ros2_ws/src/t265_px4/install/t265_px4/share/ament_index/resource_index
+[1.774s] creating /home/panda/ros2_ws/src/t265_px4/install/t265_px4/share/ament_index/resource_index/packages
+[1.774s] copying resource/t265_px4 -> /home/panda/ros2_ws/src/t265_px4/install/t265_px4/share/ament_index/resource_index/packages
+[1.775s] copying package.xml -> /home/panda/ros2_ws/src/t265_px4/install/t265_px4/share/t265_px4
+[1.775s] running install_egg_info
+[1.795s] Copying build/t265_px4/t265_px4.egg-info to /home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages/t265_px4-0.0.0-py3.8.egg-info
+[1.796s] running install_scripts
+[1.845s] Installing listener script to /home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/t265_px4
+[1.845s] writing list of installed files to '/home/panda/ros2_ws/src/t265_px4/build/t265_px4/install.log'
+[1.895s] Invoked command in '/home/panda/ros2_ws/src/t265_px4' returned '0': PYTHONPATH=/home/panda/ros2_ws/src/t265_px4/build/t265_px4/prefix_override:/home/panda/ros2_ws/src/t265_px4/install/t265_px4/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/t265_px4 build --build-base /home/panda/ros2_ws/src/t265_px4/build/t265_px4/build install --record /home/panda/ros2_ws/src/t265_px4/build/t265_px4/install.log --install-scripts $base/lib/t265_px4 --single-version-externally-managed install_data

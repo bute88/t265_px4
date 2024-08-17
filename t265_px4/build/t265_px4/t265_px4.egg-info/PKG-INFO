@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: t265_px4
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: panda
+Maintainer-email: panda@todo.todo
+License: TODO: License declaration
+Requires-Dist: setuptools
