@@ -8,10 +8,10 @@ ROS2's nav_msgs format is translated to VehicleOdometry messages in the uORB for
 then published at 30 Hz to prevent overloading the flight controller, which could cause it to freeze.
 
 Our setup:
-  Ubuntu 20.04 
-  ROS2 Foxy
-  librealsense v.2.50.0 -  https://github.com/IntelRealSense/librealsense/blob/v2.50.0/doc/distribution_linux.md (Option 1: Install librealsense2 debian package)
-  realsense-ros version 4.0.4 - https://github.com/IntelRealSense/realsense-ros/tree/4.0.4
+Ubuntu 20.04 
+ROS2 Foxy
+librealsense v.2.50.0 -  https://github.com/IntelRealSense/librealsense/blob/v2.50.0/doc/distribution_linux.md (Option 1: Install librealsense2 debian package)
+realsense-ros version 4.0.4 - https://github.com/IntelRealSense/realsense-ros/tree/4.0.4
 
 After sucsesfully initzalizing the camera runing in the termianl - ros2 launch realsense2_camera rs_launch.py 
 
