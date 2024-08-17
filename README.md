@@ -14,8 +14,13 @@ ROS2 Foxy
 
 librealsense v.2.50.0 -  https://github.com/IntelRealSense/librealsense/blob/v2.50.0/doc/distribution_linux.md (Option 1: Install librealsense2 debian package)
 
+PX4-Autopilot v.1.14 - git clone https://github.com/PX4/PX4-Autopilot.git --recursive
+
 realsense-ros version 4.0.4 - https://github.com/IntelRealSense/realsense-ros/tree/4.0.4
 
 After sucsesfully initzalizing the camera runing in the termianl - ros2 launch realsense2_camera rs_launch.py 
 
-We can continue to download on the companion computer the PX4-Autopilot firmeware. 
+We can continue to download on the companion computer the PX4-Autopilot firmeware by following the PX4 development guide - 
+https://docs.px4.io/main/en/development/development.html 
+
+As well as the ROS2 user guide - https://docs.px4.io/main/en/ros2/user_guide.html
