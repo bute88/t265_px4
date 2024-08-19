@@ -103,6 +103,7 @@ inside the file `60-Ftdi.rules` for instance under `/etc/udev/rules.d` (it can b
 Iside that file configure the parameters for instance `KERNEL=="ttyUSB*", ATTRS{idVendor}=="0405", ATTRS{idProduct}=="8005", ATTRS{serial}=="A30472BI", SYMLINK+="telem2"`
 
 ##**Initializing the Agent and our Transformation Node**
+Now we can start running the agent, T265 camera, and the node transforming from camera to PX4 uORB topic /fmu/in/vehicle_visual_odometry
 
 Initzalizing the camera by runing in the termianl - `ros2 launch realsense2_camera rs_launch.py`
 
@@ -111,7 +112,8 @@ Initzalizing transformation node - `ros2 run t265_px4 listener`
 Initzalizing the Agent - `MicroXRCEAgent serial --dev /telem2 -b 57600`
 
 
-Troubleshooting
+###**Troubleshooting**
 If any missing dependencies, they ca be added separately:
-sudo apt install python3-colcon-common-extensions
-sudo apt install ros-foxy-eigen3-cmake-module
+
+    sudo apt install python3-colcon-common-extensions
+    sudo apt install ros-foxy-eigen3-cmake-module
