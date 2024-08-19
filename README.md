@@ -18,7 +18,7 @@ then published at 30 Hz to prevent overloading the flight controller, which coul
 
 - realsense-ros version 4.0.4 - https://github.com/IntelRealSense/realsense-ros/tree/4.0.4
 
-- PX4-Autopilot v.1.14
+- PX4-Autopilot v.1.14 - https://docs.px4.io/main/en/ros2/user_guide.html#install-px4
 
 ## **Install PX4-Autopilot v.1.14** 
 
