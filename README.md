@@ -80,9 +80,15 @@ Set `EKF2_EV_CTRL` - enable: 0 : Horizontal position fusion 1 : Vertical positio
 
 Set `UXRCE_DDS_CFG` to TELEM2
 
-SET `SER_TEL2_BAUD` to TELEM2
+Set `SER_TEL2_BAUD` to TELEM2
 
 Disable  `MAV_0_CONFIG=0` or `MAV_1_CONFIG=0` 
+
+`EKF2_GPS_CTRL = 0` (no GPS fusion)
+
+`EKF2_HGT_REF = 3` (height reference coming from EV)
+
+`EKF2_MAG_TYPE = 5` (no magnetometer fusion)  **need to be tested**
 
 for more information in here - https://docs.px4.io/main/en/middleware/uxrce_dds.html (under Starting the Client)
 
