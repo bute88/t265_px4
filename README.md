@@ -11,7 +11,7 @@ then published at 30 Hz to prevent overloading the flight controller, which coul
 
 - Ubuntu 20.04 
 
-- ROS2 Foxy
+- ROS2 Foxy - https://docs.ros.org/en/foxy/Installation/Alternatives/Ubuntu-Development-Setup.html
 
 - librealsense v.2.50.0 -  https://github.com/IntelRealSense/librealsense/blob/v2.50.0/doc/distribution_linux.md 
 (Option 1: Install librealsense2 debian package)
@@ -22,7 +22,7 @@ then published at 30 Hz to prevent overloading the flight controller, which coul
 
 ## **Install PX4-Autopilot v.1.14** 
 
-**Set up a PX4 development environment:**
+Set up the PX4 development environment:
 
     cd
   
@@ -33,7 +33,8 @@ then published at 30 Hz to prevent overloading the flight controller, which coul
     install some python dependencies - pip install --user -U empy==3.3.4 pyros-genmsg setuptools
   
 
-### **setup the agent:**
+### **setup of the agent**
+by entering the following commands we will build the agent from source:
 
     git clone https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
     
@@ -54,19 +55,19 @@ then published at 30 Hz to prevent overloading the flight controller, which coul
 
 **building the worksapce:**
 
-mkdir -p ~/ws_sensor_combined/src/
-
-cd ~/ws_sensor_combined/src/
-
-git clone https://github.com/PX4/px4_msgs.git
-
-git clone https://github.com/PX4/px4_ros_com.git
-
-cd ..
-
-source /opt/ros/humble/setup.bash
-
-colcon build
+    mkdir -p ~/ros2_ws/src/
+    
+    cd ~/ros2_ws/src/
+    
+    git clone https://github.com/PX4/px4_msgs.git
+    
+    git clone https://github.com/PX4/px4_ros_com.git
+    
+    cd ..
+    
+    source /opt/ros/foxy/setup.bash
+    
+    colcon build
 
 
 
