@@ -20,9 +20,9 @@ realsense-ros version 4.0.4 - https://github.com/IntelRealSense/realsense-ros/tr
 
 PX4-Autopilot v.1.14
 
-## **Install PX4-Autopilot v.1.14:** 
+## **Install PX4-Autopilot v.1.14** 
 
-Set up a PX4 development environment
+**Set up a PX4 development environment:**
 
 cd
 
