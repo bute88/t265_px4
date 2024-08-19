@@ -77,8 +77,11 @@ Werever you downloaded QgroundControl. Let's assume in the Download files, we wi
 Now we need to setup our vehicle, you can follow the guide - https://docs.qgroundcontrol.com/master/en/qgc-user-guide/setup_view/setup_view.html and finally tune the parameters for VIO and disabling GPS as follows.
 
 Set `EKF2_EV_CTRL` - enable: 0 : Horizontal position fusion 1 : Vertical position fusion 2 : 3D velocity fusion 3 : Yaw
+
 Set `UXRCE_DDS_CFG` to TELEM2
+
 SET `SER_TEL2_BAUD` to TELEM2
+
 Disable  `MAV_0_CONFIG=0` or `MAV_1_CONFIG=0` 
 
 for more information in here - https://docs.px4.io/main/en/middleware/uxrce_dds.html (under Starting the Client)
