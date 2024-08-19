@@ -25,7 +25,6 @@ then published at 30 Hz to prevent overloading the flight controller, which coul
 Set up the PX4 development environment:
 
     cd
-  
     git clone https://github.com/PX4/PX4-Autopilot.git --recursive
   
     bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
