@@ -26,31 +26,20 @@ Set up the PX4 development environment:
 
     cd
     git clone https://github.com/PX4/PX4-Autopilot.git --recursive
-  
     bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
-  
     install some python dependencies - pip install --user -U empy==3.3.4 pyros-genmsg setuptools
   
-
 ### **setup of the agent**
 by entering the following commands we will build the agent from source:
 
     git clone https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
-    
     cd Micro-XRCE-DDS-Agent
-    
     mkdir build
-    
     cd build
-    
     cmake ..
-    
     make
-    
     sudo make install
-    
     sudo ldconfig /usr/local/lib/
-
 
 **building the worksapce:**
 
