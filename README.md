@@ -24,14 +24,14 @@ then published at 30 Hz to prevent overloading the flight controller, which coul
 
 **Set up a PX4 development environment:**
 
-  cd
-
-  git clone https://github.com/PX4/PX4-Autopilot.git --recursive
-
-  bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
-
-  install some python dependencies - pip install --user -U empy==3.3.4 pyros-genmsg setuptools
-
+    cd
+  
+    git clone https://github.com/PX4/PX4-Autopilot.git --recursive
+  
+    bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
+  
+    install some python dependencies - pip install --user -U empy==3.3.4 pyros-genmsg setuptools
+  
 
 **setup the agent:**
 
