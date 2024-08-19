@@ -9,7 +9,7 @@ then published at 30 Hz to prevent overloading the flight controller, which coul
 
 ## **Our setup:**
 
-- Ubuntu 20.04 
+- Ubuntu 20.04 - https://releases.ubuntu.com/focal/
 
 - ROS2 Foxy - https://docs.ros.org/en/foxy/Installation/Alternatives/Ubuntu-Development-Setup.html
 
