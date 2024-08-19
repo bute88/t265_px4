@@ -74,6 +74,8 @@ Werever you downloaded QgroundControl. Let's assume in the Download files, we wi
     chmod +x ./QGroundControl.AppImage
     ./QGroundControl.AppImage  #(or double click)
 
+Now we need to setup our vehicle, you can follow the guide - https://docs.qgroundcontrol.com/master/en/qgc-user-guide/setup_view/setup_view.html and finally tune the parameters for VIO and disabling GPS.
+
 After sucsesfully initzalizing the camera runing in the termianl - ros2 launch realsense2_camera rs_launch.py 
 
 We can continue to download on the companion computer the PX4-Autopilot firmeware by following the PX4 development guide - 
