@@ -67,8 +67,12 @@ Before installing QgroundControl insret the next commands in the command prompt:
     sudo apt install libfuse2 -y
     sudo apt install libxcb-xinerama0 libxkbcommon-x11-0 libxcb-cursor-dev -y
 
-we will download QgroundControl daily build from here - https://docs.qgroundcontrol.com/master/en/qgc-user-guide/releases/daily_builds.html
-for opening it we can go to the Download folder in the termianl.
+Download QgroundControl daily build from here - https://docs.qgroundcontrol.com/master/en/qgc-user-guide/releases/daily_builds.html
+Werever you downloaded QgroundControl. Let's assume in the Download files, we will go to tat file and insert this command lines.
+
+    cd /Downloads
+    chmod +x ./QGroundControl.AppImage
+    ./QGroundControl.AppImage  #(or double click)
 
 After sucsesfully initzalizing the camera runing in the termianl - ros2 launch realsense2_camera rs_launch.py 
 
