@@ -92,6 +92,9 @@ Disable  `MAV_0_CONFIG=0` or `MAV_1_CONFIG=0`
 
 for more information in here - https://docs.px4.io/main/en/middleware/uxrce_dds.html (under Starting the Client)
 
+### Communication
+Now we need to handle the communication between the LattePanda and the Pixhawk using FTDI adapter from USB to serial UART on TEME2 port
+on the pixhawk.
 
 
 After sucsesfully initzalizing the camera runing in the termianl - ros2 launch realsense2_camera rs_launch.py 
