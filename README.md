@@ -33,23 +33,23 @@ then published at 30 Hz to prevent overloading the flight controller, which coul
     install some python dependencies - pip install --user -U empy==3.3.4 pyros-genmsg setuptools
   
 
-**setup the agent:**
+### **setup the agent:**
 
-git clone https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
-
-cd Micro-XRCE-DDS-Agent
-
-mkdir build
-
-cd build
-
-cmake ..
-
-make
-
-sudo make install
-
-sudo ldconfig /usr/local/lib/
+    git clone https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
+    
+    cd Micro-XRCE-DDS-Agent
+    
+    mkdir build
+    
+    cd build
+    
+    cmake ..
+    
+    make
+    
+    sudo make install
+    
+    sudo ldconfig /usr/local/lib/
 
 
 **building the worksapce:**
