@@ -52,6 +52,7 @@ Build the agent from source:
     colcon build
 
 ### **Cloning this repository**
+
 We now need to clone this repository to our ROS2 workspace by following this commands in the termianl.
 
     cd /ros2_ws/src
@@ -94,6 +95,7 @@ Disable  `MAV_0_CONFIG=0` or `MAV_1_CONFIG=0`
 for more information in here - https://docs.px4.io/main/en/middleware/uxrce_dds.html (under Starting the Client)
 
 ### Communication
+
 Now we need to handle the communication between the LattePanda and the Pixhawk using FTDI adapter from USB to serial UART on TEME2 port
 on the pixhawk.
 
@@ -103,6 +105,7 @@ inside the file `60-Ftdi.rules` for instance under `/etc/udev/rules.d` (it can b
 Iside that file configure the parameters for instance `KERNEL=="ttyUSB*", ATTRS{idVendor}=="0405", ATTRS{idProduct}=="8005", ATTRS{serial}=="A30472BI", SYMLINK+="telem2"`
 
 ##**Initializing the Agent and our Transformation Node**
+
 Now we can start running the agent, T265 camera, and the node transforming from camera to PX4 uORB topic /fmu/in/vehicle_visual_odometry
 
 Initzalizing the camera by runing in the termianl - `ros2 launch realsense2_camera rs_launch.py`
