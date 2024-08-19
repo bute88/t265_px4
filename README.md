@@ -51,6 +51,13 @@ Build the agent from source:
     source /opt/ros/foxy/setup.bash
     colcon build
 
+## **Cloning a repository**
+We now need to clone this repository to our ROS2 workspace by following this commands in the termianl.
+
+    cd /ros2_ws/src
+    https://github.com/bute88/t265_px4.git
+
+
 After sucsesfully initzalizing the camera runing in the termianl - ros2 launch realsense2_camera rs_launch.py 
 
 We can continue to download on the companion computer the PX4-Autopilot firmeware by following the PX4 development guide - 
