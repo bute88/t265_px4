@@ -99,7 +99,7 @@ on the pixhawk.
 we need to set the usb port with udev-rules as follows:
 inside the file `60-Ftdi.rules` for instance under `/etc/udev/rules.d` (it can be another file other then `60-Ftdi.rules`)
 
-iside that file configur the parameters for instance `KERNEL=="ttyUSB*", ATTRS{idVendor}=="0502", ATTRS{idProduct}=="7002", ATTRS{serial}=="A30472BI", SYMLINK+="telem2"`
+Iside that file configure the parameters for instance `KERNEL=="ttyUSB*", ATTRS{idVendor}=="0405", ATTRS{idProduct}=="8005", ATTRS{serial}=="A30472BI", SYMLINK+="telem2"`
 
 
 
