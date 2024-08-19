@@ -51,7 +51,7 @@ Build the agent from source:
     source /opt/ros/foxy/setup.bash
     colcon build
 
-## **Cloning a repository**
+## **Cloning this repository**
 We now need to clone this repository to our ROS2 workspace by following this commands in the termianl.
 
     cd /ros2_ws/src
