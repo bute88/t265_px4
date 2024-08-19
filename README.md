@@ -14,6 +14,7 @@ Ubuntu 20.04
 ROS2 Foxy
 
 librealsense v.2.50.0 -  https://github.com/IntelRealSense/librealsense/blob/v2.50.0/doc/distribution_linux.md 
+
 (Option 1: Install librealsense2 debian package)
 
 realsense-ros version 4.0.4 - https://github.com/IntelRealSense/realsense-ros/tree/4.0.4
