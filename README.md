@@ -58,7 +58,9 @@ We now need to clone this repository to our ROS2 workspace by following this com
     https://github.com/bute88/t265_px4.git
 
 
-### Downloading QgroundControl
+### Downloading QgroundControl daily build - linux
+we will download QgroundControl daily build from here - https://docs.qgroundcontrol.com/master/en/qgc-user-guide/releases/daily_builds.html
+for opening it we can go to the Download folder in the termianl.
 
 After sucsesfully initzalizing the camera runing in the termianl - ros2 launch realsense2_camera rs_launch.py 
 
