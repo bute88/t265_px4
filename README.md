@@ -101,14 +101,13 @@ inside the file `60-Ftdi.rules` for instance under `/etc/udev/rules.d` (it can b
 
 Iside that file configure the parameters for instance `KERNEL=="ttyUSB*", ATTRS{idVendor}=="0405", ATTRS{idProduct}=="8005", ATTRS{serial}=="A30472BI", SYMLINK+="telem2"`
 
+##**Initializing the Agent and our Transformation Node**
 
+Initzalizing the camera by runing in the termianl - `ros2 launch realsense2_camera rs_launch.py`
 
-After sucsesfully initzalizing the camera runing in the termianl - ros2 launch realsense2_camera rs_launch.py 
+Initzalizing transformation node - `ros2 run t265_px4 listener` 
 
-We can continue to download on the companion computer the PX4-Autopilot firmeware by following the PX4 development guide - 
-https://docs.px4.io/main/en/development/development.html 
-
-As well as the ROS2 user guide - https://docs.px4.io/main/en/ros2/user_guide.html
+Initzalizing the Agent - `MicroXRCEAgent serial --dev /telem2 -b 57600`
 
 
 Troubleshooting
