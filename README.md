@@ -9,7 +9,7 @@ then published at 30 Hz to prevent overloading the flight controller, which coul
 
 ## **Our setup:**
 
--Ubuntu 20.04 
+- Ubuntu 20.04 
 
 -ROS2 Foxy
 
