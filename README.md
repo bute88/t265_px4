@@ -19,12 +19,9 @@ librealsense v.2.50.0 -  https://github.com/IntelRealSense/librealsense/blob/v2.
 
 realsense-ros version 4.0.4 - https://github.com/IntelRealSense/realsense-ros/tree/4.0.4
 
-**Install PX4:**
-
-PX4-Autopilot v.1.14 - 
+**Install PX4-Autopilot v.1.14:** 
 
 cd
-
 git clone https://github.com/PX4/PX4-Autopilot.git --recursive
 
 bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
