@@ -20,7 +20,7 @@ then published at 30 Hz to prevent overloading the flight controller, which coul
 
 - PX4-Autopilot v.1.14 - https://docs.px4.io/main/en/ros2/user_guide.html#install-px4
 
-## **Install PX4-Autopilot v.1.14** 
+### **Install PX4-Autopilot v.1.14** 
 
 Set up the PX4 development environment:
 
@@ -51,7 +51,7 @@ Build the agent from source:
     source /opt/ros/foxy/setup.bash
     colcon build
 
-## **Cloning this repository**
+### **Cloning this repository**
 We now need to clone this repository to our ROS2 workspace by following this commands in the termianl.
 
     cd /ros2_ws/src
