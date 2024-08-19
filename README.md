@@ -96,6 +96,12 @@ for more information in here - https://docs.px4.io/main/en/middleware/uxrce_dds.
 Now we need to handle the communication between the LattePanda and the Pixhawk using FTDI adapter from USB to serial UART on TEME2 port
 on the pixhawk.
 
+we need to set the usb port with udev-rules as follows:
+inside the file `60-Ftdi.rules` for instance under `/etc/udev/rules.d` (it can be another file other then `60-Ftdi.rules`)
+
+iside that file configur the parameters for instance `KERNEL=="ttyUSB*", ATTRS{idVendor}=="0502", ATTRS{idProduct}=="7002", ATTRS{serial}=="A30472BI", SYMLINK+="telem2"`
+
+
 
 After sucsesfully initzalizing the camera runing in the termianl - ros2 launch realsense2_camera rs_launch.py 
 
