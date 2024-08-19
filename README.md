@@ -68,7 +68,8 @@ Before installing QgroundControl insret the next commands in the command prompt:
     sudo apt install libxcb-xinerama0 libxkbcommon-x11-0 libxcb-cursor-dev -y
 
 Download QgroundControl daily build from here - https://docs.qgroundcontrol.com/master/en/qgc-user-guide/releases/daily_builds.html
-Werever you downloaded QgroundControl. Let's assume in the Download files, we will go to tat file and insert this command lines.
+
+Assuming you're QgroundControl download is in the Download files:
 
     cd /Downloads
     chmod +x ./QGroundControl.AppImage
@@ -96,7 +97,7 @@ for more information in here - https://docs.px4.io/main/en/middleware/uxrce_dds.
 Now we need to handle the communication between the LattePanda and the Pixhawk using FTDI adapter from USB to serial UART on TEME2 port
 on the pixhawk.
 
-we need to set the usb port with udev-rules as follows:
+We need to set the usb port with udev-rules as follows:
 inside the file `60-Ftdi.rules` for instance under `/etc/udev/rules.d` (it can be another file other then `60-Ftdi.rules`)
 
 Iside that file configure the parameters for instance `KERNEL=="ttyUSB*", ATTRS{idVendor}=="0405", ATTRS{idProduct}=="8005", ATTRS{serial}=="A30472BI", SYMLINK+="telem2"`
