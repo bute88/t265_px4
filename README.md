@@ -23,7 +23,7 @@ PX4-Autopilot v.1.14
 ## **Install PX4-Autopilot v.1.14** 
 
 **Set up a PX4 development environment:**
-
+'''
 cd
 
 git clone https://github.com/PX4/PX4-Autopilot.git --recursive
@@ -32,7 +32,7 @@ bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
 
 
 install some python dependencies - pip install --user -U empy==3.3.4 pyros-genmsg setuptools
-
+'''
 **setup the agent:**
 
 git clone https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
