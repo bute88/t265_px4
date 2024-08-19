@@ -7,7 +7,7 @@ over a serial link. The agent functions as a proxy, allowing the client to publi
 ROS2's nav_msgs format is translated to VehicleOdometry messages in the uORB format, more specifically on the /fmu/in/vehicle_visual_odometry topic. This data is 
 then published at 30 Hz to prevent overloading the flight controller, which could cause it to freeze.
 
-Our setup:
+# Our setup:
 
 Ubuntu 20.04 
 
@@ -21,9 +21,13 @@ realsense-ros version 4.0.4 - https://github.com/IntelRealSense/realsense-ros/tr
 **Install PX4:**
 
 PX4-Autopilot v.1.14 - 
+
 cd
+
 git clone https://github.com/PX4/PX4-Autopilot.git --recursive
+
 bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
+
 
 install some python dependencies - pip install --user -U empy==3.3.4 pyros-genmsg setuptools
 
