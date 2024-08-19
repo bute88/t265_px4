@@ -58,6 +58,8 @@ We now need to clone this repository to our ROS2 workspace by following this com
     https://github.com/bute88/t265_px4.git
 
 
+### Downloading QgroundControl
+
 After sucsesfully initzalizing the camera runing in the termianl - ros2 launch realsense2_camera rs_launch.py 
 
 We can continue to download on the companion computer the PX4-Autopilot firmeware by following the PX4 development guide - 
