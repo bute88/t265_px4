@@ -30,7 +30,7 @@ Set up the PX4 development environment:
     install some python dependencies - pip install --user -U empy==3.3.4 pyros-genmsg setuptools
   
 ### **setup of the agent**
-by entering the following commands we will build the agent from source:
+Build the agent from source:
 
     git clone https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
     cd Micro-XRCE-DDS-Agent
@@ -44,20 +44,12 @@ by entering the following commands we will build the agent from source:
 **building the worksapce:**
 
     mkdir -p ~/ros2_ws/src/
-    
     cd ~/ros2_ws/src/
-    
     git clone https://github.com/PX4/px4_msgs.git
-    
     git clone https://github.com/PX4/px4_ros_com.git
-    
     cd ..
-    
     source /opt/ros/foxy/setup.bash
-    
     colcon build
-
-
 
 After sucsesfully initzalizing the camera runing in the termianl - ros2 launch realsense2_camera rs_launch.py 
 
