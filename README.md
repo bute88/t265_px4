@@ -7,7 +7,7 @@ over a serial link. The agent functions as a proxy, allowing the client to publi
 ROS2's nav_msgs format is translated to VehicleOdometry messages in the uORB format, more specifically on the /fmu/in/vehicle_visual_odometry topic. This data is 
 then published at 30 Hz to prevent overloading the flight controller, which could cause it to freeze.
 
-#Our setup:#
+#Our setup:
 
 Ubuntu 20.04 
 
