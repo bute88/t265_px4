@@ -120,3 +120,9 @@ If any missing dependencies, they ca be added separately:
 
     sudo apt install python3-colcon-common-extensions
     sudo apt install ros-foxy-eigen3-cmake-module
+
+
+
+![picture](https://github.com/user-attachments/assets/aa22cfe7-6487-491a-bc3f-b8dda39b3431)
+
+
