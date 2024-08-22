@@ -6,6 +6,7 @@ from px4_msgs.msg import VehicleOdometry
 from rclpy.qos import qos_profile_sensor_data
 from geometry_msgs.msg import Quaternion, Vector3
 from rclpy.time import Time
+import numpy as np
 
 class VisualInertialOdometryPublisher(Node):
     def __init__(self):
@@ -55,9 +56,18 @@ class VisualInertialOdometryPublisher(Node):
         vehicle_odometry_msg.angular_velocity[2] = -self.latest_msg.twist.twist.angular.z
 
         # Set variances
-        vehicle_odometry_msg.position_variance = [0.0, 0.0, 0.0]
-        vehicle_odometry_msg.orientation_variance = [0.0, 0.0, 0.0]
-        vehicle_odometry_msg.velocity_variance = [0.0, 0.0, 0.0]
+        self.pose_covariance_matrix = np.array(self.latest_msg.pose.covariance).reshape((6, 6)) 
+        self.twist_covariance_matrix = np.array(self.latest_msg.twist.covariance).reshape((6, 6))   
+        
+        vehicle_odometry_msg.position_variance = [self.pose_covariance_matrix[0, 0],
+                                                  self.pose_covariance_matrix[1, 1],
+                                                  self.pose_covariance_matrix[2, 2]]
+        vehicle_odometry_msg.orientation_variance = [self.pose_covariance_matrix[3, 3],
+                                                     self.pose_covariance_matrix[4, 4],
+                                                     self.pose_covariance_matrix[5, 5]]
+        vehicle_odometry_msg.velocity_variance = [self.twist_covariance_matrix[0, 0],
+                                                  self.twist_covariance_matrix[1, 1],
+                                                  self.twist_covariance_matrix[2, 2]]
 
         # Rotate the quaternion
         orientation = self.latest_msg.pose.pose.orientation
