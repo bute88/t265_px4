@@ -122,6 +122,7 @@ If any missing dependencies, they ca be added separately:
     sudo apt install ros-foxy-eigen3-cmake-module
 
 
+![picture1](https://github.com/user-attachments/assets/94300b77-306e-46f7-ad64-ed5843cc4f83)
 
 ![picture](https://github.com/user-attachments/assets/aa22cfe7-6487-491a-bc3f-b8dda39b3431)
 
